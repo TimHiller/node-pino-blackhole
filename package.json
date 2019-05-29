@@ -1,0 +1,27 @@
+{
+  "name": "pino-blackhole",
+  "version": "1.0.0",
+  "description": "create a fully functional pino logger that doesn't output anything anywhere",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TimHiller/node-pino-blackhole.git"
+  },
+  "author": "Tim Hiller <tim.hiller@fairmanager.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TimHiller/node-pino-blackhole/issues"
+  },
+  "dependencies": {
+    "stream-blackhole": "^1.0.3"
+  },
+  "peerDependencies": {
+    "pino": "5.12.6"
+  },
+  "devDependencies": {
+    "pino": "5.12.6"
+  }
+}
